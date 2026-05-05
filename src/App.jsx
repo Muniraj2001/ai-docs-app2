@@ -4,7 +4,7 @@ import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
 import "./styles.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://ai-docs-app1-1.onrender.com/docs";
 
 function App() {
   const [userId, setUserId] = useState(1);
